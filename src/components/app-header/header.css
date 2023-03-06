@@ -1,0 +1,27 @@
+.header {
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1310px;
+  justify-content: space-between;
+  padding: 24px 0;
+  align-items: center;
+  top: 0;
+  background-color: #161516;
+}
+.header__title {
+  font-size: 31px;
+}
+.header__cart {
+  display: flex;
+}
+.cart__state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+}
+.cart__button {
+  background-color: transparent;
+  border: none;
+}

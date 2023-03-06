@@ -1,0 +1,50 @@
+.card__image {
+  grid-area: image;
+  display: block;
+  width: 100%;
+}
+
+.button__image svg {
+  background-color: transparent;
+}
+
+.card__header {
+  grid-area: header;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.card__description {
+  grid-area: description;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.card__info {
+  grid-area: info;
+  width: 100%;
+}
+.card__price {
+  font-size: 17px;
+}
+.card__weight {
+  padding-left: 5px;
+  font-size: 14px;
+}
+.card__button-add {
+  grid-area: button;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .card__button-add:hover {
+  border-color: #d58c51;
+  background-color: #d58c51;
+}
